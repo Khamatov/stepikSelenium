@@ -28,5 +28,5 @@ test:
     #- unzip chromedriver_linux64.zip
     #- chmod +x chromedriver
   script:
-    - pytest -s -v main.py
+    - pytest -s -v test_fixture7.py
 
